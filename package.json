@@ -1,0 +1,45 @@
+{
+  "name": "vue-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "sftp": "vue-cli-service build && mx sftp",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "chalk": "^2.4.2",
+    "core-js": "^2.6.5",
+    "figlet": "^1.2.1",
+    "lib-flexible": "^0.3.2",
+    "ora": "^3.4.0",
+    "px2rem-loader": "^0.1.9",
+    "vant": "^1.6.15",
+    "vue": "^2.6.10",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "@vue/cli-plugin-unit-mocha": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "lint-staged": "^8.1.4",
+    "postcss-pxtorem": "^4.0.1",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
